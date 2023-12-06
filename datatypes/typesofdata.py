@@ -9,7 +9,9 @@ complex=1j
 something=range(7)
 frozen=frozenset({'the', 'frozen', 'set'})
 bool=True
-bytes=k"hi"
+bytes=bytes(75)
+ba=bytearray(34543)
+nothing= None
 
 print(type(int))
 print(type(double))
@@ -23,3 +25,5 @@ print(type(something))
 print(type(frozen))
 print(type(bool))
 print(type(bytes))
+print(type(ba))
+print(type(nothing))
